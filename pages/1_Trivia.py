@@ -43,12 +43,15 @@ def new_callback():
     st.session_state['correct_q'] = 0
 
 @st.cache
-def load_data():
+def load_data(new_cat):
     df = pd.read_csv("https://raw.githubusercontent.com/code4acause/opendata/main/trivia.csv")
+    if new_cat:
+        df = pd.concat([df,pd.read_csv("trivia_new.csv")])
     cat = df['Category'].unique().tolist()
+    st.session_state['new_cat'] = False 
     return df,cat
 
-df,categories = load_data()
+df,categories = load_data(st.session_state['new_cat'])
 category = st.sidebar.selectbox('Select Category',categories, on_change=category_callback)
 
 if st.session_state['state'] == 'final':
