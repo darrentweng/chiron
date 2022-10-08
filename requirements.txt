@@ -1,5 +1,2 @@
 streamlit
-matplotlib
-plotly
-lxml
 cohere
