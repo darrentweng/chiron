@@ -13,4 +13,4 @@ st.set_page_config(
 )
 
 st.markdown("# Chiron")
-st.markdown("[Play Trivia](/trivia)")
+st.markdown("[Play Trivia](/Play_Trivia)")
