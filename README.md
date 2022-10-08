@@ -1,5 +1,5 @@
-# Streamlit Trivia
-
+# Chiron
+#### A personal tutor in your pocket
 
 [Try me on Streamlit Cloud](https://darrentweng-chiron-main-1sr32u.streamlitapp.com/)
 
@@ -10,12 +10,6 @@ docker build -t trivia .
 docker run -p 8501:8501 -v %cd%:/home/streamlit trivia
 ```
 
-## Package with Docker
-Run the following command to build the production docker image and test run it:
-```
-docker build -t trivia .
-docker run -p 8501:8501 trivia  # can be launched anywhere, no need to mount local files
-```
 Then visit [localhost:8501](http://localhost:8501/)
 
 ## Inspiration
@@ -45,12 +39,12 @@ We learned more about Streamlit and how to host Streamlit applications on the cl
 
 ## What's next for Chiron
 
-Add multi-player support
-Add user authentication support
-Add a working leaderboard
-Add a way to add new questions/categories through uploaded files
-Add OCR/AI to automatically add new questions/categories through uploaded images and/or websites
-Add text generation for explanations to answers.
-Add AI-generated answers to questions
+- Add multi-player support
+- Add user authentication support
+- Add a working leaderboard
+- Add a way to add new questions/categories through uploaded files
+- Add OCR/AI to automatically add new questions/categories through uploaded images and/or websites
+- Add text generation for explanations to answers.
+- Add AI-generated answers to questions
 
 
