@@ -13,4 +13,4 @@ st.set_page_config(
 )
 
 st.markdown("# Chiron")
-st.markdown("[Play Trivia](/Play_Trivia)")
+st.markdown("[Play Trivia](https://darrentweng-chiron-main-1sr32u.streamlitapp.com/Play_Trivia)")
