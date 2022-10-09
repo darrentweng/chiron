@@ -27,13 +27,15 @@ streamlit run Main.py
 Then visit [localhost:8501](http://localhost:8501/)
 
 ## Inspiration
+![Chiron](https://chiron-communications.com/wp-content/uploads/2013/02/Centaur_Humanity-Healing-300x283.jpg)
 
 We were inspired by a lifelong love of trivia and game-based learning platforms such as Kahoot and Quizlet. At home, we have always loved learning new information and developing new thinking skills and at school, we enjoyed participating in class games such as Kahoot and utilized services such as Quizlets to study for quizzes and tests. We wanted to create a platform that would allow us to continue to learn and have fun while doing so. We also wanted to create a platform that would allow us to learn in a way that was more engaging and interactive than traditional learning methods.
 
 ## What it does
+![NLP](https://venturebeat.com/wp-content/uploads/2018/09/natural-language-processing-e1572968977211.jpg?w=1200&strip=all)
 
 This project has two main functions: a trivia app, and a chatbot. Students and/or their teachers/tutors can upload questions and answers to the website and then practice those questions and answers on the website in a trivia format. The website counts how many right or wrong answers the user inputs so that they can know how they are doing. The chatbot interacts with the user to gauge their mood and helps to tailor a learning experience to each student. Currently. it can:
-- let users play trivaial with 80,000+ questions
+- let users play trivia with 80,000+ questions
 - allow uers to upload new questions
 - chat with users
 - detect the modes of users
@@ -46,7 +48,7 @@ To build this project, we used a mix of Streamlit and co:here. Streamlit allowed
 Co:here is a natural language processing tool that can be used to generate, categorize, and organize text. We employed prompt engineering techniques to create a conversational chatbot that could eventually encourage young users to learn while having fun. We also used cohere.classify to analyze the mood of students.
 
 ## Challenges we ran into
-
+![Challenges](https://www.bluewren.co.uk/wp-content/uploads/2021/09/AdobeStock_328546342-1200x675.jpeg)
 We had to learn how to use co:here and it took a while to learn prompt engineering because it is so new. It was also a bit of a challenge to find open-source trivia data and make it into a format that we can use. 
 
 ## Accomplishments that we're proud of
@@ -59,6 +61,7 @@ Co:here is a very versatile tool that can be manipulated to perform several serv
 We learned more about Streamlit and how to host Streamlit applications on the cloud.
 
 ## What's next for Chiron
+![Future](https://cdn.xxl.thumbs.canstockphoto.com/3d-man-at-the-crossroads-isolated-render-on-a-white-background-drawings_csp12888493.jpg)
 
 - Add multi-player support. It will be fun to play trivia with friends and family.
 - Add user authentication support. We want to make sure that only the user can access their own data, and allow users to track their progress through time.
