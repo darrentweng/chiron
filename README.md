@@ -1,5 +1,5 @@
 # Chiron
-### "Wisest and justest of all the centaurs" ... A personal tutor in your pocket.
+### "Wisest and justest of all the centaurs", "mentor of heroes" ... A personal tutor in your pocket.
 
 ## How to Run
 
