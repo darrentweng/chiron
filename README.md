@@ -32,7 +32,12 @@ We were inspired by a lifelong love of trivia and game-based learning platforms 
 
 ## What it does
 
-This project has two main functions: a trivia app, and a chatbot. Students and/or their teachers/tutors can upload questions and answers to the website and then practice those questions and answers on the website in a trivia format. The website counts how many right or wrong answers the user inputs so that they can know how they are doing. The chatbot interacts with the user to gauge their mood and helps to tailor a learning experience to each student.
+This project has two main functions: a trivia app, and a chatbot. Students and/or their teachers/tutors can upload questions and answers to the website and then practice those questions and answers on the website in a trivia format. The website counts how many right or wrong answers the user inputs so that they can know how they are doing. The chatbot interacts with the user to gauge their mood and helps to tailor a learning experience to each student. Currently. it can:
+- let users play trivaial with 80,000+ questions
+- allow uers to upload new questions
+- chat with users
+- detect the modes of users
+
 
 ## How we built it
 

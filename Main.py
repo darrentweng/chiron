@@ -20,13 +20,15 @@ col4, col5, col6 = st.columns(spec=3)
 col8, col7, col8 = st.columns(spec=3)
 with col1:
     st.markdown('''## Inspiration''')
-    st.image("https://happy-learning.co.uk/wp-content/uploads/2020/03/Quizlet.jpg")
+    st.image("https://chiron-communications.com/wp-content/uploads/2013/02/Centaur_Humanity-Healing-300x283.jpg")
     st.markdown('''We were inspired by a lifelong love of trivia and game-based learning platforms such as Kahoot and Quizlet. 
-    At home, we have always loved learning new information and developing new thinking skills and at school, we 
-    enjoyed participating in class games such as Kahoot and utilized services such as Quizlets to study for quizzes and tests.''')
+    At home, we have always loved learning new information and developing new thinking skills and at school, 
+    we enjoyed participating in class games such as Kahoot and utilized services such as Quizlets to study for quizzes and tests. 
+    We wanted to create a platform that would allow us to continue to learn and have fun while doing so. 
+    We also wanted to create a platform that would allow us to learn in a way that was more engaging and interactive 
+    than traditional learning methods.''')
 with col2:
     st.markdown('''## What it does''')
-    st.image("https://happy-learning.co.uk/wp-content/uploads/2020/03/Quizlet.jpg")
     st.markdown('''This project has two main functions: a trivia app, and a chatbot. Students and/or their teachers/tutors can 
     upload questions and answers to the website and then practice those questions and answers on the website in a 
     trivia format. The website counts how many right or wrong answers the user inputs so that they can know how 
@@ -45,6 +47,7 @@ with col4:
     st.markdown('''## Challenges we ran into
     \nWe had to learn how to use co:here and it took a while to learn prompt engineering because it is so new. It 
     was also a bit of a challenge to find open-source trivia data and make it into a format that we can use.''')
+    st.image("https://happy-learning.co.uk/wp-content/uploads/2020/03/Quizlet.jpg")
 with col5:
     st.markdown('''## Accomplishments that we're proud of
     \n- Successfully making a chatbot through prompt engineering using co_here
@@ -56,9 +59,9 @@ with col6:
 with col7:
     st.markdown('''## What's next for Chiron''')
     st.markdown('''- Add multi-player support
-    \n- Add user authentication support
-    \n- Add a working leaderboard
-    \n- Add a way to add new questions/categories through uploaded files
+    \n- Add multi-player support. It will be fun to play trivia with friends and family.
+    \n- Add user authentication support. We want to make sure that only the user can access their own data, and allow users to track their progress through time.
+    \n- ASupport more modes detection. Currently we only support happy, sad and confused, but we want to add more modes such as angry, excited, etc.
     \n- Add OCR/AI to automatically add new questions/categories through uploaded images and/or websites
-    \n- Add text generation for explanations to answers
+    \n- Add a working leaderboard. We want to make it fun to compete with friends and family.
     \n- Add AI-generated answers to questions''')
