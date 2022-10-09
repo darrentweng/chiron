@@ -58,7 +58,7 @@ with col6:
     \n- We learned more about Streamlit and how to host Streamlit applications on the cloud''')
 with col7:
     st.markdown('''## What's next for Chiron''')
-    st.markdown('''-Add multi-player support. It will be fun to play trivia with friends and family.
+    st.markdown('''- Add multi-player support. It will be fun to play trivia with friends and family.
     \n- Add user authentication support. We want to make sure that only the user can access their own data, and allow users to track their progress through time.
     \n- Support more modes detection. Currently we only support happy, sad and confused, but we want to add more modes such as angry, excited, etc.
     \n- Add OCR/AI to automatically add new questions/categories through uploaded images and/or websites
