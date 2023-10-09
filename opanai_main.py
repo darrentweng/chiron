@@ -4,6 +4,27 @@ import openai
 # Set your OpenAI API key
 openai.api_key =  st.secrets["OPENAI_API_KEY"] 
 
+def ask_openai_about_image(image, question):
+
+    # Encode the image as a base64 string
+    image_bytes = open(image, "rb").read()
+    image_base64 = image_bytes.encode("base64")
+
+    # Create the OpenAI request
+    request = {
+        "file": image_base64,
+        "question": question,
+    }
+
+    # Make the OpenAI request
+    response = openai.Answer.create(**request)
+
+    # Get the OpenAI response
+    answer = response["answers"][0]
+
+    # Return the OpenAI response
+    return answer
+
 def ask_openai_question(pdf_file, question):
   """Asks OpenAI a question about a PDF file.
 
